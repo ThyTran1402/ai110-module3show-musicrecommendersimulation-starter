@@ -142,3 +142,5 @@ Commented out the mood match block. The Happy Pop Fan's #3 slot changed from *Ro
 See [model_card.md](model_card.md) for the full Model Card including evaluation, bias analysis, and future work.
 
 Building this simulation made it clear that even a toy recommender encodes assumptions about what "good" means. The +2.0 genre weight is an editorial choice — someone decided genre matters twice as much as mood. Real platforms make hundreds of similar decisions at scale, and small biases compound quickly. Using AI tools to brainstorm edge-case profiles (like a user with high energy *and* a sad mood) was especially eye-opening: the system struggled because it was never designed for conflicting signals.
+
+![![![alt text](image-2.png)](image-1.png)](image.png)
