@@ -143,4 +143,8 @@ See [model_card.md](model_card.md) for the full Model Card including evaluation,
 
 Building this simulation made it clear that even a toy recommender encodes assumptions about what "good" means. The +2.0 genre weight is an editorial choice — someone decided genre matters twice as much as mood. Real platforms make hundreds of similar decisions at scale, and small biases compound quickly. Using AI tools to brainstorm edge-case profiles (like a user with high energy *and* a sad mood) was especially eye-opening: the system struggled because it was never designed for conflicting signals.
 
-![![![alt text](image-2.png)](image-1.png)](image.png)
+![Happy Pop Fan recommendations](image.png)
+
+![Chill Lofi Listener recommendations](image-1.png)
+
+![High-Energy Metal Head recommendations](image-2.png)
